@@ -1,0 +1,13 @@
+apiVersion: presentation.example.com/v1alpha1
+kind: Presentation
+metadata:
+  name: example-presentation
+spec:
+  # Add fields here
+  size: 3
+  markdown: |
+    # My First Presentation
+    * Test
+    ---
+    ## Test slide
+    ---
