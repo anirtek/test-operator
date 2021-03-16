@@ -16,7 +16,7 @@ spec:
       containers:
         - name: test-operator
           # Replace this with the built image name
-          image: quay.io/cloudian/test-operator
+          image: quay.io/anirtek/test-operator
           command:
           - test-operator
           imagePullPolicy: Always
